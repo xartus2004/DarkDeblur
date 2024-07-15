@@ -1,0 +1,38 @@
+# Python-related
+__pycache__/
+*.py[cod]
+*.so
+
+# Checkpoint files
+*.pth
+
+# Logs
+*.log
+*.tfevents.*
+
+# Virtual environment
+venv/
+env/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Dataset files (if you don't want to track them)
+DarkShake_sample/
+ValidationData/
+
+# Output images
+*.png
+*.jpg
+*.jpeg
+
+# Ignore the entire DarkDeblurLog directory
+DarkDeblurLog/
